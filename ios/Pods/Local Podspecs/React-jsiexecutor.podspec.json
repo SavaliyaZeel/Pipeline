@@ -20,15 +20,35 @@
   },
   "header_dir": "jsireact",
   "dependencies": {
-    "React-cxxreact": ["0.77.0"],
-    "React-jsi": ["0.77.0"],
-    "React-perflogger": ["0.77.0"],
-    "RCT-Folly": ["2024.11.18.00"],
-    "DoubleConversion": [],
-    "fast_float": ["6.1.4"],
-    "fmt": ["11.0.2"],
-    "glog": [],
-    "React-jsinspector": [],
-    "hermes-engine": []
+    "React-cxxreact": [
+      "0.77.0"
+    ],
+    "React-jsi": [
+      "0.77.0"
+    ],
+    "React-perflogger": [
+      "0.77.0"
+    ],
+    "RCT-Folly": [
+      "2024.11.18.00"
+    ],
+    "DoubleConversion": [
+
+    ],
+    "fast_float": [
+      "6.1.4"
+    ],
+    "fmt": [
+      "11.0.2"
+    ],
+    "glog": [
+
+    ],
+    "React-jsinspector": [
+
+    ],
+    "hermes-engine": [
+
+    ]
   }
 }

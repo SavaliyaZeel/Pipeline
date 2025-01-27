@@ -81,5 +81,7 @@
     "yoga/style/StyleValueHandle.h",
     "yoga/style/StyleValuePool.h"
   ],
-  "preserve_paths": ["yoga/**/*.h"]
+  "preserve_paths": [
+    "yoga/**/*.h"
+  ]
 }

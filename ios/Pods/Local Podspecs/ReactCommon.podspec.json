@@ -26,24 +26,50 @@
     {
       "name": "turbomodule",
       "dependencies": {
-        "React-callinvoker": ["0.77.0"],
-        "React-perflogger": ["0.77.0"],
-        "React-cxxreact": ["0.77.0"],
-        "React-jsi": ["0.77.0"],
-        "RCT-Folly": ["2024.11.18.00"],
-        "React-logger": ["0.77.0"],
-        "DoubleConversion": [],
-        "fast_float": ["6.1.4"],
-        "fmt": ["11.0.2"],
-        "glog": [],
-        "hermes-engine": []
+        "React-callinvoker": [
+          "0.77.0"
+        ],
+        "React-perflogger": [
+          "0.77.0"
+        ],
+        "React-cxxreact": [
+          "0.77.0"
+        ],
+        "React-jsi": [
+          "0.77.0"
+        ],
+        "RCT-Folly": [
+          "2024.11.18.00"
+        ],
+        "React-logger": [
+          "0.77.0"
+        ],
+        "DoubleConversion": [
+
+        ],
+        "fast_float": [
+          "6.1.4"
+        ],
+        "fmt": [
+          "11.0.2"
+        ],
+        "glog": [
+
+        ],
+        "hermes-engine": [
+
+        ]
       },
       "subspecs": [
         {
           "name": "bridging",
           "dependencies": {
-            "React-jsi": ["0.77.0"],
-            "hermes-engine": []
+            "React-jsi": [
+              "0.77.0"
+            ],
+            "hermes-engine": [
+
+            ]
           },
           "source_files": "react/bridging/**/*.{cpp,h}",
           "exclude_files": "react/bridging/tests",
@@ -59,9 +85,15 @@
             "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_CONFIGURATION_BUILD_DIR)/React-debug/React_debug.framework/Headers\" \"$(PODS_CONFIGURATION_BUILD_DIR)/React-debug/React_featureflags.framework/Headers\" \"$(PODS_CONFIGURATION_BUILD_DIR)/React-utils/React_utils.framework/Headers\""
           },
           "dependencies": {
-            "React-debug": ["0.77.0"],
-            "React-featureflags": ["0.77.0"],
-            "React-utils": ["0.77.0"]
+            "React-debug": [
+              "0.77.0"
+            ],
+            "React-featureflags": [
+              "0.77.0"
+            ],
+            "React-utils": [
+              "0.77.0"
+            ]
           }
         }
       ]

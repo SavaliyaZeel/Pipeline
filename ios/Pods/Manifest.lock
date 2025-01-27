@@ -1831,12 +1831,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
-  fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
+  fast_float: 23278fd30b349f976d2014f4aec9e2d7bc1c3806
   FBLazyVector: 2bc03a5cf64e29c611bbc5d7eb9d9f7431f37ee6
-  fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
-  glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
-  hermes-engine: 1f783c3d53940aed0d2c84586f0b7a85ab7827ef
-  RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
+  fmt: b85d977e8fe789fd71c77123f9f4920d88c4d170
+  glog: 4d0897e15160938a2f597257740aff78251ee509
+  hermes-engine: a96108b06d076fd52718f3b5f46417c0cc7b1897
+  RCT-Folly: 031db300533e2dfa954cdc5a859b792d5c14ed7b
   RCTDeprecation: f5c19ebdb8804b53ed029123eb69914356192fc8
   RCTRequired: 6ae6cebe470486e0e0ce89c1c0eabb998e7c51f4
   RCTTypeSafety: 50d6ec72a3d13cf77e041ff43a0617050fb98e3f
