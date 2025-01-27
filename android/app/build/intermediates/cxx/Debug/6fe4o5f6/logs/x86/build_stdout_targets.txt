@@ -1,0 +1,545 @@
+ninja: Entering directory `/Users/manish/Documents/RNProj/Pipeline/android/app/.cxx/Debug/6fe4o5f6/x86'
+[0/2] Re-checking globbed directories...
+[1/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o
+[2/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:16:69: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   16 | void RNCSafeAreaProviderEventEmitter::onInsetsChange(OnInsetsChange $event) const {
+      |                                                                     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17:34: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                  ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:18:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   18 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:21:38: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   21 |   insets.setProperty(runtime, "top", $event.insets.top);
+      |                                      ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:22:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   22 |   insets.setProperty(runtime, "right", $event.insets.right);
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:23:41: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   23 |   insets.setProperty(runtime, "bottom", $event.insets.bottom);
+      |                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:24:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   24 |   insets.setProperty(runtime, "left", $event.insets.left);
+      |                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:25:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   25 |   $payload.setProperty(runtime, "insets", insets);
+      |   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:29:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   29 |   frame.setProperty(runtime, "x", $event.frame.x);
+      |                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:30:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   30 |   frame.setProperty(runtime, "y", $event.frame.y);
+      |                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:31:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   31 |   frame.setProperty(runtime, "width", $event.frame.width);
+      |                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:32:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |   frame.setProperty(runtime, "height", $event.frame.height);
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:33:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   33 |   $payload.setProperty(runtime, "frame", frame);
+      |   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:35:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   35 |     return $payload;
+      |            ^
+15 warnings generated.
+[3/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o
+[4/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o
+[5/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o
+[6/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o
+[7/28] Building CXX object CMakeFiles/appmodules.dir/OnLoad.cpp.o
+[8/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o
+[9/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/ComponentDescriptors.cpp.o
+[10/28] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp.o
+[11/28] Linking CXX shared library /Users/manish/Documents/RNProj/Pipeline/android/app/build/intermediates/cxx/Debug/6fe4o5f6/obj/x86/libreact_codegen_safeareacontext.so
+[12/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSModalScreenShadowNode.cpp.o
+[13/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigState.cpp.o
+[14/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewState.cpp.o
+[15/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigShadowNode.cpp.o
+[16/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewShadowNode.cpp.o
+[17/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp.o
+[18/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenState.cpp.o
+[19/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/rnscreens.cpp.o
+[20/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/States.cpp.o
+[21/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/rnscreensJSI-generated.cpp.o
+[22/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp.o
+[23/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o
+[24/28] Building CXX object CMakeFiles/appmodules.dir/Users/manish/Documents/RNProj/Pipeline/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o
+[25/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:17:52: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 | void RNSModalScreenEventEmitter::onAppear(OnAppear $event) const {
+      |                                                    ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:19:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   19 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:21:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   21 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:26:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   26 | void RNSModalScreenEventEmitter::onDisappear(OnDisappear $event) const {
+      |                                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:28:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   28 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:30:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   30 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:35:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   35 | void RNSModalScreenEventEmitter::onDismissed(OnDismissed $event) const {
+      |                                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:36:31: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   36 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:36:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   36 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:37:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   37 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:38:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:38:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:39:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   39 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:44:84: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   44 | void RNSModalScreenEventEmitter::onNativeDismissCancelled(OnNativeDismissCancelled $event) const {
+      |                                                                                    ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:45:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   45 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:45:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   45 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                             ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:46:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   46 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:47:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   47 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:47:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   47 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:48:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   48 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:53:60: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   53 | void RNSModalScreenEventEmitter::onWillAppear(OnWillAppear $event) const {
+      |                                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:55:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   55 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:57:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   57 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:62:66: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   62 | void RNSModalScreenEventEmitter::onWillDisappear(OnWillDisappear $event) const {
+      |                                                                  ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:64:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   64 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:66:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   66 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:71:76: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   71 | void RNSModalScreenEventEmitter::onHeaderHeightChange(OnHeaderHeightChange $event) const {
+      |                                                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:72:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   72 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:72:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   72 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:73:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   73 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:74:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:74:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:75:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   75 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:80:76: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   80 | void RNSModalScreenEventEmitter::onTransitionProgress(OnTransitionProgress $event) const {
+      |                                                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:81:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   81 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:81:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   81 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:82:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   82 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:83:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   83 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:83:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   83 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:84:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   84 | $payload.setProperty(runtime, "closing", $event.closing);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:84:42: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   84 | $payload.setProperty(runtime, "closing", $event.closing);
+      |                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:85:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   85 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:85:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   85 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      |                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:86:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   86 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:91:66: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   91 | void RNSModalScreenEventEmitter::onGestureCancel(OnGestureCancel $event) const {
+      |                                                                  ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:93:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   93 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:95:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   95 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:100:86: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  100 | void RNSModalScreenEventEmitter::onHeaderBackButtonClicked(OnHeaderBackButtonClicked $event) const {
+      |                                                                                      ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:102:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  102 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:104:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  104 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:109:76: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  109 | void RNSModalScreenEventEmitter::onSheetDetentChanged(OnSheetDetentChanged $event) const {
+      |                                                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:110:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  110 |   dispatchEvent("sheetDetentChanged", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:110:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  110 |   dispatchEvent("sheetDetentChanged", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:111:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  111 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:112:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  112 |     $payload.setProperty(runtime, "index", $event.index);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:112:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  112 |     $payload.setProperty(runtime, "index", $event.index);
+      |                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:113:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  113 | $payload.setProperty(runtime, "isStable", $event.isStable);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:113:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  113 | $payload.setProperty(runtime, "isStable", $event.isStable);
+      |                                           ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:114:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  114 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:122:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  122 | void RNSScreenEventEmitter::onAppear(OnAppear $event) const {
+      |                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:124:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  124 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:126:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  126 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:131:53: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  131 | void RNSScreenEventEmitter::onDisappear(OnDisappear $event) const {
+      |                                                     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:133:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  133 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:135:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  135 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:140:53: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  140 | void RNSScreenEventEmitter::onDismissed(OnDismissed $event) const {
+      |                                                     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:141:31: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  141 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:141:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  141 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:142:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  142 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:143:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  143 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:143:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  143 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:144:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  144 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:149:79: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  149 | void RNSScreenEventEmitter::onNativeDismissCancelled(OnNativeDismissCancelled $event) const {
+      |                                                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:150:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  150 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:150:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  150 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                             ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:151:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  151 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:152:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  152 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:152:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  152 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:153:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  153 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:158:55: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  158 | void RNSScreenEventEmitter::onWillAppear(OnWillAppear $event) const {
+      |                                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:160:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  160 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:162:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  162 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:167:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  167 | void RNSScreenEventEmitter::onWillDisappear(OnWillDisappear $event) const {
+      |                                                             ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:169:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  169 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:171:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  171 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:176:71: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  176 | void RNSScreenEventEmitter::onHeaderHeightChange(OnHeaderHeightChange $event) const {
+      |                                                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:177:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  177 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:177:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  177 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:178:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  178 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:179:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  179 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:179:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  179 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |                                                   ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:180:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  180 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:185:71: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  185 | void RNSScreenEventEmitter::onTransitionProgress(OnTransitionProgress $event) const {
+      |                                                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:186:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  186 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:186:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  186 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:187:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  187 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:188:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  188 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:188:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  188 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:189:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  189 | $payload.setProperty(runtime, "closing", $event.closing);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:189:42: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  189 | $payload.setProperty(runtime, "closing", $event.closing);
+      |                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:190:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  190 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:190:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  190 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      |                                               ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:191:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  191 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:196:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  196 | void RNSScreenEventEmitter::onGestureCancel(OnGestureCancel $event) const {
+      |                                                             ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:198:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  198 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:200:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  200 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:205:81: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  205 | void RNSScreenEventEmitter::onHeaderBackButtonClicked(OnHeaderBackButtonClicked $event) const {
+      |                                                                                 ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:207:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  207 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:209:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  209 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:214:71: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  214 | void RNSScreenEventEmitter::onSheetDetentChanged(OnSheetDetentChanged $event) const {
+      |                                                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:215:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  215 |   dispatchEvent("sheetDetentChanged", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:215:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  215 |   dispatchEvent("sheetDetentChanged", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:216:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  216 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:217:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  217 |     $payload.setProperty(runtime, "index", $event.index);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:217:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  217 |     $payload.setProperty(runtime, "index", $event.index);
+      |                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:218:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  218 | $payload.setProperty(runtime, "isStable", $event.isStable);
+      | ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:218:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  218 | $payload.setProperty(runtime, "isStable", $event.isStable);
+      |                                           ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:219:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  219 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:225:68: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  225 | void RNSScreenStackHeaderConfigEventEmitter::onAttached(OnAttached $event) const {
+      |                                                                    ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:227:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  227 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:229:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  229 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:234:68: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  234 | void RNSScreenStackHeaderConfigEventEmitter::onDetached(OnDetached $event) const {
+      |                                                                    ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:236:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  236 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:238:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  238 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:244:78: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  244 | void RNSScreenStackEventEmitter::onFinishTransitioning(OnFinishTransitioning $event) const {
+      |                                                                              ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:246:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  246 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:248:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  248 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:253:60: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  253 | void RNSSearchBarEventEmitter::onSearchFocus(OnSearchFocus $event) const {
+      |                                                            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:255:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  255 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:257:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  257 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:262:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  262 | void RNSSearchBarEventEmitter::onSearchBlur(OnSearchBlur $event) const {
+      |                                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:264:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  264 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:266:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  266 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:271:72: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  271 | void RNSSearchBarEventEmitter::onSearchButtonPress(OnSearchButtonPress $event) const {
+      |                                                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:272:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  272 |   dispatchEvent("searchButtonPress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                       ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:272:56: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  272 |   dispatchEvent("searchButtonPress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:273:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  273 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:274:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  274 |     $payload.setProperty(runtime, "text", $event.text);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:274:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  274 |     $payload.setProperty(runtime, "text", $event.text);
+      |                                           ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:275:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  275 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:280:72: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  280 | void RNSSearchBarEventEmitter::onCancelButtonPress(OnCancelButtonPress $event) const {
+      |                                                                        ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:282:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  282 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:284:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  284 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:289:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  289 | void RNSSearchBarEventEmitter::onChangeText(OnChangeText $event) const {
+      |                                                          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:290:32: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  290 |   dispatchEvent("changeText", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:290:49: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  290 |   dispatchEvent("changeText", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                 ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:291:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  291 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:292:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  292 |     $payload.setProperty(runtime, "text", $event.text);
+      |     ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:292:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  292 |     $payload.setProperty(runtime, "text", $event.text);
+      |                                           ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:293:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  293 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:298:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  298 | void RNSSearchBarEventEmitter::onClose(OnClose $event) const {
+      |                                                ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:300:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  300 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:302:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  302 |     return $payload;
+      |            ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:307:46: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  307 | void RNSSearchBarEventEmitter::onOpen(OnOpen $event) const {
+      |                                              ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:309:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  309 |     auto $payload = jsi::Object(runtime);
+      |          ^
+/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:311:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  311 |     return $payload;
+      |            ^
+156 warnings generated.
+[26/28] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/Users/manish/Documents/RNProj/Pipeline/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ComponentDescriptors.cpp.o
+[27/28] Linking CXX shared library /Users/manish/Documents/RNProj/Pipeline/android/app/build/intermediates/cxx/Debug/6fe4o5f6/obj/x86/libreact_codegen_rnscreens.so
+[28/28] Linking CXX shared library /Users/manish/Documents/RNProj/Pipeline/android/app/build/intermediates/cxx/Debug/6fe4o5f6/obj/x86/libappmodules.so

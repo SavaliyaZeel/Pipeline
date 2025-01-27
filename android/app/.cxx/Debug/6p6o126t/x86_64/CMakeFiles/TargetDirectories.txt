@@ -1,0 +1,3 @@
+/Users/manish/Documents/RNProj/demo/android/app/.cxx/Debug/6p6o126t/x86_64/CMakeFiles/appmodules.dir
+/Users/manish/Documents/RNProj/demo/android/app/.cxx/Debug/6p6o126t/x86_64/CMakeFiles/edit_cache.dir
+/Users/manish/Documents/RNProj/demo/android/app/.cxx/Debug/6p6o126t/x86_64/CMakeFiles/rebuild_cache.dir

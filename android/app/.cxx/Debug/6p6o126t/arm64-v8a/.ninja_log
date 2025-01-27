@@ -1,0 +1,5 @@
+# ninja log v5
+1	173	0	/Users/manish/Documents/RNProj/demo/android/app/.cxx/Debug/6p6o126t/arm64-v8a/CMakeFiles/cmake.verify_globs	beaac766967ddd77
+0	2537	1737956591161688105	CMakeFiles/appmodules.dir/Users/manish/Documents/RNProj/demo/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	4f8d4c08b7307eab
+0	2676	1737956591302437183	CMakeFiles/appmodules.dir/OnLoad.cpp.o	a283f502843e2151
+2676	2797	1737956591426846064	/Users/manish/Documents/RNProj/demo/android/app/build/intermediates/cxx/Debug/6p6o126t/obj/arm64-v8a/libappmodules.so	945f5908db525fa9

@@ -1,0 +1,25 @@
+current directory: /Users/manish/Documents/RNProj/demo/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/ext/json/ext/parser
+/Users/manish/.rvm/rubies/ruby-3.3.1/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/manish/Documents/RNProj/demo/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250127-7221-a940qz sitelibdir\=./.gem.20250127-7221-a940qz clean
+
+current directory: /Users/manish/Documents/RNProj/demo/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250127-7221-a940qz sitelibdir\=./.gem.20250127-7221-a940qz
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/manish/Documents/RNProj/demo/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250127-7221-a940qz sitelibdir\=./.gem.20250127-7221-a940qz install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 parser.bundle ./.gem.20250127-7221-a940qz/json/ext
+
+current directory: /Users/manish/Documents/RNProj/demo/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250127-7221-a940qz sitelibdir\=./.gem.20250127-7221-a940qz clean
