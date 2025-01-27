@@ -62,7 +62,5 @@
     }
   },
   "cFileExtensions": [],
-  "cppFileExtensions": [
-    "cpp"
-  ]
+  "cppFileExtensions": ["cpp"]
 }

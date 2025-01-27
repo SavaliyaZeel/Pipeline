@@ -3,9 +3,9 @@ name: Pull Request into Master, Develop and Preprod
 on:
   pull_request:
     branches:
-      - "master"
-      - "develop"
-      - "preprod"
+      - 'master'
+      - 'develop'
+      - 'preprod'
 
 jobs:
   #First job
@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: "yarn"
+          cache: 'yarn'
 
       - name: Install Node modules
         run: yarn ci

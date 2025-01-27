@@ -18,19 +18,13 @@
     "exclude_files": "PlatformStubs/**/*"
   },
   "osx": {
-    "exclude_files": [
-      "RCTStatusBarManager.mm"
-    ]
+    "exclude_files": ["RCTStatusBarManager.mm"]
   },
   "visionos": {
-    "exclude_files": [
-      "RCTStatusBarManager.mm"
-    ]
+    "exclude_files": ["RCTStatusBarManager.mm"]
   },
   "tvos": {
-    "exclude_files": [
-      "RCTStatusBarManager.mm"
-    ]
+    "exclude_files": ["RCTStatusBarManager.mm"]
   },
   "header_dir": "CoreModules",
   "pod_target_xcconfig": {
@@ -40,47 +34,19 @@
   },
   "frameworks": "UIKit",
   "dependencies": {
-    "DoubleConversion": [
-
-    ],
-    "fast_float": [
-      "6.1.4"
-    ],
-    "fmt": [
-      "11.0.2"
-    ],
-    "RCT-Folly": [
-      "2024.11.18.00"
-    ],
-    "RCTTypeSafety": [
-      "0.77.0"
-    ],
-    "React-Core/CoreModulesHeaders": [
-      "0.77.0"
-    ],
-    "React-RCTImage": [
-      "0.77.0"
-    ],
-    "React-jsi": [
-      "0.77.0"
-    ],
-    "React-RCTBlob": [
-
-    ],
-    "SocketRocket": [
-      "0.7.1"
-    ],
-    "React-jsinspector": [
-
-    ],
-    "React-RCTFBReactNativeSpec": [
-
-    ],
-    "ReactCommon": [
-
-    ],
-    "React-NativeModulesApple": [
-
-    ]
+    "DoubleConversion": [],
+    "fast_float": ["6.1.4"],
+    "fmt": ["11.0.2"],
+    "RCT-Folly": ["2024.11.18.00"],
+    "RCTTypeSafety": ["0.77.0"],
+    "React-Core/CoreModulesHeaders": ["0.77.0"],
+    "React-RCTImage": ["0.77.0"],
+    "React-jsi": ["0.77.0"],
+    "React-RCTBlob": [],
+    "SocketRocket": ["0.7.1"],
+    "React-jsinspector": [],
+    "React-RCTFBReactNativeSpec": [],
+    "ReactCommon": [],
+    "React-NativeModulesApple": []
   }
 }

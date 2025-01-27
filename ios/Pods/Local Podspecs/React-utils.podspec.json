@@ -22,20 +22,10 @@
     "DEFINES_MODULE": "YES"
   },
   "dependencies": {
-    "RCT-Folly": [
-      "2024.11.18.00"
-    ],
-    "React-jsi": [
-      "0.77.0"
-    ],
-    "glog": [
-
-    ],
-    "hermes-engine": [
-
-    ],
-    "React-debug": [
-
-    ]
+    "RCT-Folly": ["2024.11.18.00"],
+    "React-jsi": ["0.77.0"],
+    "glog": [],
+    "hermes-engine": [],
+    "React-debug": []
   }
 }

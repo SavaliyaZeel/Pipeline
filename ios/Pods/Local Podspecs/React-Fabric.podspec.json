@@ -20,66 +20,26 @@
     "HEADER_SEARCH_PATHS": "\"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug/React_rendererdebug.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios\""
   },
   "dependencies": {
-    "RCT-Folly/Fabric": [
-      "2024.11.18.00"
-    ],
-    "React-jsiexecutor": [
-
-    ],
-    "RCTRequired": [
-
-    ],
-    "RCTTypeSafety": [
-
-    ],
-    "ReactCommon/turbomodule/core": [
-
-    ],
-    "React-jsi": [
-
-    ],
-    "React-logger": [
-
-    ],
-    "glog": [
-
-    ],
-    "DoubleConversion": [
-
-    ],
-    "fast_float": [
-      "6.1.4"
-    ],
-    "fmt": [
-      "11.0.2"
-    ],
-    "React-Core": [
-
-    ],
-    "React-debug": [
-
-    ],
-    "React-featureflags": [
-
-    ],
-    "React-utils": [
-
-    ],
-    "React-runtimescheduler": [
-
-    ],
-    "React-cxxreact": [
-
-    ],
-    "React-rendererdebug": [
-
-    ],
-    "React-graphics": [
-
-    ],
-    "hermes-engine": [
-
-    ]
+    "RCT-Folly/Fabric": ["2024.11.18.00"],
+    "React-jsiexecutor": [],
+    "RCTRequired": [],
+    "RCTTypeSafety": [],
+    "ReactCommon/turbomodule/core": [],
+    "React-jsi": [],
+    "React-logger": [],
+    "glog": [],
+    "DoubleConversion": [],
+    "fast_float": ["6.1.4"],
+    "fmt": ["11.0.2"],
+    "React-Core": [],
+    "React-debug": [],
+    "React-featureflags": [],
+    "React-utils": [],
+    "React-runtimescheduler": [],
+    "React-cxxreact": [],
+    "React-rendererdebug": [],
+    "React-graphics": [],
+    "hermes-engine": []
   },
   "script_phases": [
     {
@@ -92,9 +52,7 @@
     {
       "name": "animations",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/animations/**/*.{m,mm,cpp,h}",
@@ -104,9 +62,7 @@
     {
       "name": "attributedstring",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/attributedstring/**/*.{m,mm,cpp,h}",
@@ -116,9 +72,7 @@
     {
       "name": "core",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation",
       "source_files": "react/renderer/core/**/*.{m,mm,cpp,h}",
@@ -131,9 +85,7 @@
     {
       "name": "componentregistry",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/componentregistry/*.{m,mm,cpp,h}",
@@ -142,9 +94,7 @@
     {
       "name": "componentregistrynative",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/componentregistry/native/**/*.{m,mm,cpp,h}",
@@ -156,9 +106,7 @@
         {
           "name": "root",
           "dependencies": {
-            "RCT-Folly/Fabric": [
-              "2024.11.18.00"
-            ]
+            "RCT-Folly/Fabric": ["2024.11.18.00"]
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
           "source_files": "react/renderer/components/root/**/*.{m,mm,cpp,h}",
@@ -168,12 +116,8 @@
         {
           "name": "view",
           "dependencies": {
-            "RCT-Folly/Fabric": [
-              "2024.11.18.00"
-            ],
-            "Yoga": [
-
-            ]
+            "RCT-Folly/Fabric": ["2024.11.18.00"],
+            "Yoga": []
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
           "source_files": "react/renderer/components/view/**/*.{m,mm,cpp,h}",
@@ -190,9 +134,7 @@
         {
           "name": "legacyviewmanagerinterop",
           "dependencies": {
-            "RCT-Folly/Fabric": [
-              "2024.11.18.00"
-            ]
+            "RCT-Folly/Fabric": ["2024.11.18.00"]
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
           "source_files": "react/renderer/components/legacyviewmanagerinterop/**/*.{m,mm,cpp,h}",
@@ -207,12 +149,8 @@
     {
       "name": "dom",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ],
-        "React-graphics": [
-
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"],
+        "React-graphics": []
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/dom/**/*.{m,mm,cpp,h}",
@@ -222,15 +160,9 @@
     {
       "name": "scheduler",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ],
-        "React-performancetimeline": [
-
-        ],
-        "React-Fabric/observers/events": [
-
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"],
+        "React-performancetimeline": [],
+        "React-Fabric/observers/events": []
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/scheduler/**/*.{m,mm,cpp,h}",
@@ -239,9 +171,7 @@
     {
       "name": "imagemanager",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/imagemanager/*.{m,mm,cpp,h}",
@@ -250,9 +180,7 @@
     {
       "name": "mounting",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/mounting/**/*.{m,mm,cpp,h}",
@@ -265,9 +193,7 @@
         {
           "name": "events",
           "dependencies": {
-            "RCT-Folly/Fabric": [
-              "2024.11.18.00"
-            ]
+            "RCT-Folly/Fabric": ["2024.11.18.00"]
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
           "source_files": "react/renderer/observers/events/**/*.{m,mm,cpp,h}",
@@ -279,9 +205,7 @@
     {
       "name": "templateprocessor",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/templateprocessor/**/*.{m,mm,cpp,h}",
@@ -291,9 +215,7 @@
     {
       "name": "telemetry",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/telemetry/**/*.{m,mm,cpp,h}",
@@ -303,12 +225,8 @@
     {
       "name": "uimanager",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ],
-        "React-rendererconsistency": [
-
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"],
+        "React-rendererconsistency": []
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/uimanager/*.{m,mm,cpp,h}",
@@ -317,9 +235,7 @@
         {
           "name": "consistency",
           "dependencies": {
-            "RCT-Folly/Fabric": [
-              "2024.11.18.00"
-            ]
+            "RCT-Folly/Fabric": ["2024.11.18.00"]
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
           "source_files": "react/renderer/uimanager/consistency/*.{m,mm,cpp,h}",
@@ -330,9 +246,7 @@
     {
       "name": "leakchecker",
       "dependencies": {
-        "RCT-Folly/Fabric": [
-          "2024.11.18.00"
-        ]
+        "RCT-Folly/Fabric": ["2024.11.18.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32",
       "source_files": "react/renderer/leakchecker/**/*.{cpp,h}",
