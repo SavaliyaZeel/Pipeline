@@ -1,9 +1,12 @@
-import MainNavigator from './src/navigator/MainNavigator'
+import { View } from 'react-native';
+import MainNavigator from './src/navigator/MainNavigator';
 
 const App = () => {
   return (
-    <MainNavigator />
-  )
-}
+    <View>
+      <MainNavigator />
+    </View>
+  );
+};
 
-export default App
+export default App;
