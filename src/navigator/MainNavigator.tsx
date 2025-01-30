@@ -1,11 +1,18 @@
-import { Text, View } from 'react-native';
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Home from '../screens/Home';
+import Detial from '../screens/Detial';
 
 const MainNavigator = () => {
+  const Stack = createNativeStackNavigator();
   return (
-    <View>
-      <Text>MainNavigator</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Detial" component={Detial} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 
