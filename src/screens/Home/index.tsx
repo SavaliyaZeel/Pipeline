@@ -10,7 +10,6 @@ interface HomeProps {
 const Home = (props: HomeProps) => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    // Alert.alert('Hello', 'World');
     getData();
   }, []);
 
