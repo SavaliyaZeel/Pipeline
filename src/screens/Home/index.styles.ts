@@ -9,7 +9,19 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     backgroundColor: 'skyblue',
     padding: 8,
-    // marginVertical: 4,
     alignSelf: 'center',
+  },
+  loading: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loadingContainer: {
+    padding: 16,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#e1e1e1',
+    gap: 8,
   },
 });

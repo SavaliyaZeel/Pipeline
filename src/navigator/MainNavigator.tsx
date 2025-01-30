@@ -10,7 +10,7 @@ const MainNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Detial" component={Detial} />
+        <Stack.Screen name="Detial" component={Detial as never} />
       </Stack.Navigator>
     </NavigationContainer>
   );
