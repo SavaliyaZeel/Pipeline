@@ -9,11 +9,11 @@ module.exports = {
   transform: {
     '^.+\\.[t|j]sx?$': 'babel-jest',
   },
+  coverageDirectory: 'coverage', // Define where coverage data will be stored
+  coverageReporters: ['lcov', 'text'],
   collectCoverage: true,
   collectCoverageFrom: [
-    'src/**/*.js', // Or use your file pattern
-    '!src/**/*.test.js', // Exclude test files
-  ],
-  coverageDirectory: 'coverage', // Define where coverage data will be stored
-  coverageReporters: ['lcov', 'text-summary'], // Specify reporters
+    "src/**/*.{js,ts,tsx}",
+    "!src/**/*.d.ts"
+  ]
 };
