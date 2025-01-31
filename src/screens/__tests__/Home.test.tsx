@@ -30,41 +30,6 @@ describe('Home Screen', () => {
     expect(getByText('Loading...')).toBeTruthy();
   });
 
-  //   it('should render data when fetching is complete', async () => {
-  //     const mockData = [{ id: 1, name: 'Item 1' }, { id: 2, name: 'Item 2' }];
-
-  //     // Mock useDispatch and useSelector
-  //     require('react-redux').useDispatch.mockReturnValue(dispatch);
-  //     require('react-redux').useSelector.mockReturnValue({ data: mockData, loading: false });
-
-  //     const { getByText, findByText } = render(<Home navigation={navigation} />);
-
-  //     // Wait for loading to disappear
-  //     await waitFor(() => expect(getByText('Loading...')).not.toBeTruthy());
-
-  //     // Check if the data is rendered
-  //     expect(await findByText('name : Item 1')).toBeTruthy();
-  //     expect(await findByText('name : Item 2')).toBeTruthy();
-  //   });
-
-  //   it('should handle fetch error', async () => {
-  //     // Mock fetch to simulate error
-  //     fetch.mockRejectedValueOnce(new Error('Network error'));
-
-  //     // Mock useDispatch and useSelector
-  //     require('react-redux').useDispatch.mockReturnValue(dispatch);
-  //     require('react-redux').useSelector.mockReturnValue({ data: [], loading: false });
-
-  //     const { getByText, findByText } = render(<Home navigation={navigation} />);
-
-  //     // Wait for loading to disappear
-  //     await waitFor(() => expect(getByText('Loading...')).not.toBeTruthy());
-
-  //     // Optionally, you can check if error state is handled and displayed
-  //     // Assuming you would display an error message like this:
-  //     // expect(findByText('Something went wrong')).toBeTruthy();
-  //   });
-
   it('should navigate on item press', async () => {
     const mockData = [{ id: 1, name: 'Item 1' }];
 

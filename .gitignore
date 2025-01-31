@@ -13,6 +13,7 @@ ios/Pods/
 node_modules/
 package-lock.json/
 .idea/
+coverage/
 
 # Logs
 *.log
