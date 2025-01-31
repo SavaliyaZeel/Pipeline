@@ -1,15 +1,16 @@
+import * as React from 'react';
 import { View } from 'react-native';
-import MainNavigator from './src/navigator/MainNavigator';
 import { Provider } from 'react-redux';
+import MainNavigator from './src/navigator/MainNavigator';
 import { store } from './src/store/store';
 
 const App = () => {
   return (
-    <View style={{ flex: 1 }} testID="provider-wrapper">
-      <Provider store={store}>
+    <Provider store={store}>
+      <View style={{ flex: 1 }} testID="provider-wrapper">
         <MainNavigator />
-      </Provider>
-    </View>
+      </View>
+    </Provider>
   );
 };
 
