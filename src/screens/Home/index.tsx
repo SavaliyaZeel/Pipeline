@@ -12,7 +12,7 @@ import { setData, setError, startLoading } from '../../store/slices/listSlice';
 
 interface HomeProps {
   navigation: {
-    navigate: () => void;
+    navigate: (screen: string) => void;
   };
 }
 const Home = (props: HomeProps) => {

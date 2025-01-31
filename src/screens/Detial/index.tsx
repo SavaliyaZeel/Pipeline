@@ -17,7 +17,6 @@ interface DetialProps {
 
 const Detial = ({ route }: DetialProps) => {
   const data = route.params;
-  console.log('data', data);
 
   return (
     <View style={styles.container}>
