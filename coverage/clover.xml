@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1738303709502" clover="3.2.0">
-  <project timestamp="1738303709502" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1738314481219" clover="3.2.0">
+  <project timestamp="1738314481219" name="All files">
+    <metrics statements="35" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="15" coveredmethods="9" elements="52" coveredelements="36" complexity="0" loc="35" ncloc="35" packages="6" files="8" classes="8"/>
+    <package name="Pipeline">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/manish/Documents/RNProj/Pipeline/App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pipeline.src.navigator">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="MainNavigator.tsx" path="/Users/manish/Documents/RNProj/Pipeline/src/navigator/MainNavigator.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pipeline.src.screens.Detial">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.styles.ts" path="/Users/manish/Documents/RNProj/Pipeline/src/screens/Detial/index.styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/manish/Documents/RNProj/Pipeline/src/screens/Detial/index.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pipeline.src.screens.Home">
+      <metrics statements="16" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="6"/>
+      <file name="index.styles.ts" path="/Users/manish/Documents/RNProj/Pipeline/src/screens/Home/index.styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/manish/Documents/RNProj/Pipeline/src/screens/Home/index.tsx">
+        <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="6"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pipeline.src.store">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="store.ts" path="/Users/manish/Documents/RNProj/Pipeline/src/store/store.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Pipeline.src.store.slices">
+      <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="listSlice.tsx" path="/Users/manish/Documents/RNProj/Pipeline/src/store/slices/listSlice.tsx">
+        <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
