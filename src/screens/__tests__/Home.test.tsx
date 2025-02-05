@@ -30,6 +30,18 @@ describe('Home Screen', () => {
     expect(getByText('Loading...')).toBeTruthy();
   });
 
+  it.skip('should fetch data on mount', async () => {
+    useDispatch.mockReturnValue(dispatch);
+    useSelector.mockReturnValue({ data: [], loading: false });
+
+    render(<Home navigation={navigation} />);
+
+    // Ensure that the API call action was dispatched
+    await waitFor(() => {
+      expect(dispatch).toHaveBeenCalledWith(expect.any(Function));
+    });
+  });
+
   it('should navigate on item press', async () => {
     const mockData = [{ id: 1, name: 'Item 1' }];
 
