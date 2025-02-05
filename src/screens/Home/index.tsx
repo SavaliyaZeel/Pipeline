@@ -18,22 +18,21 @@ interface HomeProps {
 const Home = (props: HomeProps) => {
   const dispatch = useDispatch();
   const { data, loading } = useSelector((state) => state.list);
-  useEffect(() => {
-    getData();
-  }, []);
 
-  const getData = async () => {
-    dispatch(startLoading());
-    const requestOptions = {
-      method: 'GET',
-      redirect: 'follow',
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        dispatch(startLoading()); // Dispatch the startLoading action here
+        const response = await fetch('https://api.restful-api.dev/objects');
+        const result = await response.json();
+        dispatch(setData(result));
+      } catch (err) {
+        dispatch(setError(err));
+      }
     };
 
-    await fetch('https://api.restful-api.dev/objects', requestOptions)
-      .then((response) => response.json())
-      .then((result) => dispatch(setData(result)))
-      .catch((error) => dispatch(setError(error)));
-  };
+    fetchData();
+  }, [dispatch]);
 
   return (
     <View style={styles.container}>
