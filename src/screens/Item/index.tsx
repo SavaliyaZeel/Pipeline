@@ -2,7 +2,7 @@ import { Text, View } from 'react-native';
 import React from 'react';
 import { styles } from './index.styles';
 
-interface DetialProps {
+interface ItemProps {
   route: {
     params: {
       id: number;
@@ -15,7 +15,7 @@ interface DetialProps {
   };
 }
 
-const Detial = ({ route }: DetialProps) => {
+const Item = ({ route }: ItemProps) => {
   const { data } = route.params;
 
   return (
@@ -28,4 +28,4 @@ const Detial = ({ route }: DetialProps) => {
   );
 };
 
-export default Detial;
+export default Item;
