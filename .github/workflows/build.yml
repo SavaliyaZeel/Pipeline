@@ -28,11 +28,18 @@ jobs:
       - name: Run Tests with Coverage
         run: npm test -- --coverage
 
-      - name: Upload Coverage Report
+      - name: Upload Coverage Report to Codecov
         uses: codecov/codecov-action@v5
         with:
-          token: 7c7bccd2-238a-441d-ba3e-63fdc8e3c1bf # Add this secret in GitHub Actions
+          token: ${{ secrets.CODECOV_TOKEN }}  # Store this token in GitHub Secrets
           file: ./coverage/lcov.info
           flags: unittests
           name: codecov-coverage
           fail_ci_if_error: true
+
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          projectBaseDir: .

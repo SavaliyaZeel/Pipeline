@@ -1,6 +1,5 @@
 codecov:
   token: 7c7bccd2-238a-441d-ba3e-63fdc8e3c1bf  # Required if not using GitHub Actions or other CI integrations
-  require_ci_to_pass: yes
   max_report_age: off
 
 coverage:
