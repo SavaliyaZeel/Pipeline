@@ -9,8 +9,8 @@ module.exports = {
   transform: {
     '^.+\\.[t|j]sx?$': 'babel-jest',
   },
-  coverageDirectory: 'coverage', // Define where coverage data will be stored
-  coverageReporters: ['lcov', 'text'],
+  coverageDirectory: './coverage',
+  coverageReporters: ['lcov', 'json', 'text'],
   collectCoverage: true,
   collectCoverageFrom: [
     "src/**/*.{js,ts,tsx}",
