@@ -28,10 +28,10 @@ jobs:
       - name: Run Tests with Coverage
         run: npm test -- --coverage
 
-      - name: Upload coverage reports to Codecov
+      - name: Upload Coverage Report
         uses: codecov/codecov-action@v5
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+          token: 7c7bccd2-238a-441d-ba3e-63fdc8e3c1bf # Add this secret in GitHub Actions
           file: ./coverage/lcov.info
           flags: unittests
           name: codecov-coverage
