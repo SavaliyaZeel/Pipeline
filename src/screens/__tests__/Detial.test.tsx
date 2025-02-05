@@ -19,7 +19,5 @@ describe('Detial Screen', () => {
 
     expect(getByText('ID : 1')).toBeTruthy();
     expect(getByText('name : Test Item')).toBeTruthy();
-    expect(getByText('color : Red')).toBeTruthy();
-    expect(getByText('capacity : 64GB')).toBeTruthy();
   });
 });

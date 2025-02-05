@@ -23,8 +23,6 @@ const Detial = ({ route }: DetialProps) => {
       <View style={styles.detials}>
         <Text>ID : {data.id}</Text>
         <Text>name : {data.name}</Text>
-        <Text>color : {data.data.color}</Text>
-        <Text>capacity : {data.data.capacity}</Text>
       </View>
     </View>
   );
